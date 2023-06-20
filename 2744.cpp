@@ -10,7 +10,7 @@ int main() {
         if('A' <= str[i] && 'Z' >= str[i]) {
             str[i] = tolower(str[i]);
         }
-        else /*if('a' <= str[i] && str[i] <= 'z')*/ {
+        else  {
             str[i] = toupper(str[i]);
         }
     }
